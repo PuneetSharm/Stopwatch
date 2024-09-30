@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  align-items: center;
+  margin: 40vh;
+}
+
+.display {
+  font-size: 40px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.buttons {
+  margin: 5px;
+  padding: 5px;
+}
+
+.start {
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: green;
+  border-color: green;
+  
+}
+.start:hover{
+  cursor: pointer;
+}
+
+.stop {
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: red;
+  border-color: red;
+}
+
+.stop:hover{
+  cursor: pointer;
+}
+
+.reset {
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: hsla(203, 100%, 50%, 0.965);
+  border-color: hsla(203, 100%, 50%, 0.965) ;
+}
+
+.reset:hover{
+  cursor: pointer;
+}
