@@ -6,15 +6,9 @@ function App() {
   const [count, setCount] = useState(0);
 
   function  onStartClick(){
-    // setInterval
-      // setCount(setInterval((count => count+1),100))
-      setTimeout(()=>{
-        console.log("hello")
-        
-      setCount(setInterval(()=>{count => count+1},500))},500)
-      // ,1000))),5000)
-
-    // ,100);
+    setInterval(() => {
+      setCount(count => count+1);
+    },1000)
   }
 
   function onStopClick(){
